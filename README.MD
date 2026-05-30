@@ -1,6 +1,8 @@
 Hi, I'm Bishal Acharya 👋
 
-
+<a href="https://www.linkedin.com/in/bishal-acharya-47603b269/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+</a>
 
 
 
