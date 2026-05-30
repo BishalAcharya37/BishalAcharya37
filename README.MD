@@ -36,7 +36,7 @@ Hi, I'm Bishal Acharya 👋
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 **Infrastructure**
-![AWS](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS_S3-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
@@ -47,25 +47,12 @@ Hi, I'm Bishal Acharya 👋
 
 ---
 
-### 🔧 Currently building
-
-**Manpower Hub** — Production-grade CRM/ERP for foreign employment agencies in Nepal.
-Full worker lifecycle: registration → medical → visa → labour ministry → departure.
-
-- Multi-tenant architecture with RBAC and audit logging
-- Async job processing with BullMQ and Redis
-- File handling via AWS S3 with presigned URLs
-- Real-time messaging hub with Socket.IO and Facebook Graph API
-- JWT auth with OTP, trusted devices, and office hours enforcement
-
----
-
 ### 🎯 Focus areas
 
 - 🔒 Auth systems — JWT, RBAC, session management, trusted devices
 - ⚙️ Reliability — idempotency, retries, background jobs, failure recovery
 - 📊 Data integrity — transactions, locking, pagination, soft deletes
-- 🚀 Scalable API design — service-based architecture, clean separation of concerns
+- 🚀 API design — service-based architecture, clean separation of concerns
 
 ---
 
