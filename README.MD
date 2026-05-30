@@ -27,22 +27,53 @@ Currently available for **remote backend engineering roles** — I want to be in
 ## Tech stack
 
 **Core backend**
-`Node.js` `Express.js` `REST API design` `Prisma v7` `PostgreSQL` `MongoDB`
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 
 **Data & queuing**
-`Redis` `BullMQ` `transactions` `idempotency keys` `distributed locks` `atomic operations`
+
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
+![Transactions](https://img.shields.io/badge/transactions-idempotency-6B7280?style=flat)
+![Distributed Locks](https://img.shields.io/badge/distributed%20locks-atomic%20ops-6B7280?style=flat)
 
 **Auth & security**
-`JWT` `OTP two-factor` `bcrypt` `RBAC` `session management` `trusted devices` `token rotation` `Helmet` `rate limiting`
+
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-525252?style=flat&logo=npm&logoColor=white)
+![Helmet](https://img.shields.io/badge/Helmet.js-000000?style=flat&logo=helmet&logoColor=white)
+![OTP 2FA](https://img.shields.io/badge/OTP%202FA-RBAC-6B7280?style=flat)
+![Session Management](https://img.shields.io/badge/session%20mgmt-token%20rotation-6B7280?style=flat)
+![Rate Limiting](https://img.shields.io/badge/rate%20limiting-trusted%20devices-6B7280?style=flat)
 
 **Infrastructure & integrations**
-`AWS S3` `Cloudinary` `Socket.IO` `webhooks` `Stripe` `Meta Graph API` `Puppeteer` `GitHub Actions` `Docker`
+
+![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
+![Webhooks](https://img.shields.io/badge/webhooks-6B7280?style=flat)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 **Validation & observability**
-`Zod` `Pino` `structured logging` `audit trails` `Swagger`
+
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
+![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
+![Structured Logging](https://img.shields.io/badge/structured%20logging-audit%20trails-6B7280?style=flat)
 
 **Testing & CI**
-`Jest` `Supertest` `integration tests` `CI/CD pipelines`
+
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![Supertest](https://img.shields.io/badge/Supertest-6B7280?style=flat&logo=npm&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-pipelines-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
@@ -50,7 +81,15 @@ Currently available for **remote backend engineering roles** — I want to be in
 
 ### Acharya Fancy Stores — e-commerce backend &nbsp;[![Live](https://img.shields.io/badge/live-onrender-639922?style=flat)](https://acharya-fancy-stores.onrender.com) [![Repo](https://img.shields.io/badge/repo-github-24292e?style=flat&logo=github)](https://github.com/BishalAcharya37)
 
-`Node.js` `MongoDB` `Redis` `BullMQ` `Stripe` `Cloudinary` `JWT` `Jest` `GitHub Actions`
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 - Full order lifecycle with **Stripe and Cash on Delivery**. Idempotency keys prevent duplicate orders and payments even under retries or network failures.
 - Stripe webhooks with signature validation — `payment_intent.succeeded` and `payment_intent.payment_failed` update order status **atomically**, safe against Stripe retries.
@@ -63,7 +102,17 @@ Currently available for **remote backend engineering roles** — I want to be in
 
 ### Production-grade multi-tenant SaaS CRM/ERP
 
-`Node.js` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AWS S3` `Socket.IO` `Meta Graph API` `webhooks` `Puppeteer` `Zod` `Pino`
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
+![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
+![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
 
 End-to-end worker lifecycle management built for a real-world client — not a side project.
 
