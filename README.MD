@@ -4,11 +4,11 @@
 
 **Backend Engineer · Kathmandu, Nepal · Remote-ready**
 
-[![Available](https://img.shields.io/badge/status-available%20for%20remote%20roles-3B6D11?style=flat&labelColor=EAF3DE)](mailto:acharyabishal172@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-BishalAcharya37-24292e?style=flat&logo=github)](https://github.com/BishalAcharya37)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-bishal--acharya-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/bishal-acharya-47603b269/)
-[![Email](https://img.shields.io/badge/email-acharyabishal172@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:acharyabishal172@gmail.com)
-[![Live Project](https://img.shields.io/badge/live-acharya--fancy--stores-639922?style=flat&logo=render&logoColor=white)](https://acharya-fancy-stores.onrender.com)
+<a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/status-available%20for%20remote%20roles-3B6D11?style=flat&labelColor=EAF3DE" alt="Available"></a>
+<a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-BishalAcharya37-24292e?style=flat&logo=github" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-bishal--acharya-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
+<a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/email-acharyabishal172@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://acharya-fancy-stores.onrender.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-acharya--fancy--stores-639922?style=flat&logo=render&logoColor=white" alt="Live Project"></a>
 
 </div>
 
@@ -79,7 +79,7 @@ Currently available for **remote backend engineering roles** — I want to be in
 
 ## What I've built
 
-### Acharya Fancy Stores — e-commerce backend &nbsp;[![Live](https://img.shields.io/badge/live-onrender-639922?style=flat)](https://acharya-fancy-stores.onrender.com) [![Repo](https://img.shields.io/badge/repo-github-24292e?style=flat&logo=github)](https://github.com/BishalAcharya37)
+### Acharya Fancy Stores — e-commerce backend &nbsp;<a href="https://acharya-fancy-stores.onrender.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-onrender-639922?style=flat" alt="Live"></a> <a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/repo-github-24292e?style=flat&logo=github" alt="Repo"></a>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -143,6 +143,6 @@ End-to-end worker lifecycle management built for a real-world client — not a s
 
 **Open to remote backend engineering roles — available immediately.**
 
-[acharyabishal172@gmail.com](mailto:acharyabishal172@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/bishal-acharya-47603b269/) &nbsp;·&nbsp; [GitHub](https://github.com/BishalAcharya37)
+<a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer">acharyabishal172@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer">GitHub</a>
 
 </div>
