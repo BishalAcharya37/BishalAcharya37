@@ -18,7 +18,7 @@
 
 Backend engineer who graduated in 2025 with a **BIT from London Metropolitan University**. I don't just build features — I build systems that hold up when things go wrong.
 
-I think about race conditions before they happen, design rollbacks before writing the happy path, and treat idempotency as a first-class requirement, not an afterthought.
+I think about race conditions before they happen, design rollbacks before writing the happy path, and treat idempotency as a first-class requirement, not an afterthought. Over the past few months I've also taken on the infrastructure side of a production system solo — provisioning, deploying, and keeping a live multi-tenant SaaS running on AWS, end to end.
 
 Currently available for **remote backend engineering roles** — I want to be in production, facing real failures, and fixing them.
 
@@ -50,22 +50,32 @@ Currently available for **remote backend engineering roles** — I want to be in
 ![Session Management](https://img.shields.io/badge/session%20mgmt-token%20rotation-6B7280?style=flat)
 ![Rate Limiting](https://img.shields.io/badge/rate%20limiting-trusted%20devices-6B7280?style=flat)
 
-**Infrastructure & integrations**
+**Infrastructure & DevOps**
 
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS%20IAM-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-learning-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
+
+**Integrations**
+
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 ![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
 ![Webhooks](https://img.shields.io/badge/webhooks-6B7280?style=flat)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 **Validation & observability**
 
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 ![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
 ![Structured Logging](https://img.shields.io/badge/structured%20logging-audit%20trails-6B7280?style=flat)
 
@@ -107,22 +117,39 @@ Currently available for **remote backend engineering roles** — I want to be in
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
 ![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 ![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
 
-End-to-end worker lifecycle management built for a real-world client — not a side project.
+End-to-end worker lifecycle management built for a real-world client — not a side project. I own this system's backend **and** its infrastructure solo, from schema design through the AWS server it runs on.
 
+**Application layer**
 - **Multi-tenant architecture** — agency-scoped data isolation, per-tenant RBAC, soft deletes with full recovery, and audit logging on every critical mutation.
 - **Auth system** — JWT + OTP two-factor, trusted device fingerprinting, session invalidation, office-hours enforcement, and forced password rotation.
-- **File workflows** — temp-upload → permanent-move pattern on AWS S3/Cloudinary with atomic rollback on DB failure. Deterministic permanent paths mean updates always overwrite — no accumulation, no orphans.
+- **Provider-agnostic file storage** — a facade layer decoupling every service from the underlying storage provider. Migrated the entire app from Cloudinary to AWS S3 by changing a single import line, with zero changes to business logic across 15+ modules. Temp-upload → permanent-move pattern with atomic rollback on DB failure.
 - **Background job pipelines** — BullMQ queues with retry, exponential backoff, idempotency keys, and dead-letter handling via Redis.
 - **Real-time messaging** — Socket.IO with room-based agency isolation. Webhook ingestion from Meta Graph API delivers messages to connected clients instantly.
 - **Meta Graph API integration** — Facebook and Instagram page management, post publishing (text, image, multi-image, video), conversation sync, and live inbox with webhook-driven updates.
 - **Async PDF reports** — Puppeteer-generated reports queued as background jobs, never blocking the API response.
+
+**Infrastructure & DevOps**
+- **Provisioned and hardened AWS EC2** from scratch — Ubuntu server, security groups, SSH key management, and an Elastic IP attached up front so instance-type changes never require a DNS update.
+- **Nginx reverse proxy** in front of the app, configured for WebSocket pass-through (Socket.IO) and tuned request-size/timeout limits after diagnosing a silent upload failure caused by default proxy limits, not application code.
+- **PM2 process management** with boot-persistent auto-start and a memory-restart safety net, so the process self-heals before a leak can take down the whole instance.
+- **GitHub Actions CI/CD** with health-check-gated automatic rollback — a failed post-deploy health check reverts to the last known-good commit with no manual intervention, so a bad deploy degrades to "nothing shipped," never to downtime.
+- **Diagnosed and fixed a storage-layer bug that looked like an AWS permissions issue but wasn't** — a URL/key mismatch caused S3 to return `403` instead of a clean `404` for missing objects, traced by comparing the stored key against the returned URL rather than re-auditing IAM policy.
+- **Migrated the production domain** from a managed PaaS to self-managed infrastructure behind Cloudflare.
+
+**Currently deepening**
+- **AWS RDS** — moving toward managed, VPC-isolated Postgres with automated backups.
+- **Infrastructure as Code (Terraform)** — writing declarative configs to reproduce infrastructure that was first built by hand, so it's reviewable, repeatable, and not dependent on one person's memory.
+- **Load balancing, auto-scaling, and blue-green deployment patterns** — studying how to run two identical environments and switch traffic at the DNS/load-balancer level instead of deploying onto a live production box, to remove deploy-time resource contention entirely.
 
 ---
 
@@ -135,6 +162,7 @@ End-to-end worker lifecycle management built for a real-world client — not a s
 | **Idempotency** | If this job runs twice, is the result the same? Background jobs must be safe to retry. |
 | **Observability** | Structured logs, audit trails, enough context to debug at 2am without reading every line. |
 | **Simplicity** | The boring solution that works beats the clever one that breaks under edge cases. |
+| **Infrastructure is not someone else's job** | If I ship the feature, I understand what it runs on — the server, the proxy, the process manager, all of it. |
 | **Shipped & tested** | CI/CD and tests before calling anything done. I don't push untested code. |
 
 ---
