@@ -210,6 +210,26 @@ End-to-end worker lifecycle management built for a real-world client — not a s
 
 ---
 
+## 🖥️ My Remote & Daily Workflow Setup
+
+Working efficiently from a different timezone requires heavy over-communication, a rock-solid local environment, and zero downtime. Here is how I operate daily:
+
+### ⚙️ Development Environment
+- **OS & Shell:** Windows Subsystem for Linux (WSL2 - Ubuntu) paired with Zsh and Oh-My-Zsh.
+- **Editor:** VS Code heavily customized for backend development (Prisma, Docker, AWS Toolkit, ESLint/Prettier on save).
+- **Local Infra & Databases:** I use **Docker** locally to run isolated Redis instances and BullMQ queues to keep the environment lean. For my primary relational database, I develop directly against cloud-native Serverless PostgreSQL via **Neon Database**. 
+- **Networking & Webhooks:** I heavily utilize **Ngrok**. I use it not just for catching and debugging incoming Stripe or Meta Graph API webhooks, but also to tunnel my local backend and frontend instances for seamless, live integration testing across the internet.
+- **Database GUI:** TablePlus / DBeaver for monitoring active SQL queries, running aggregations, and diagnosing performance bottlenecks.
+
+### 🔋 Remote Infrastructure & Reliability 
+International employers sometimes worry about power grid stability (loadshedding) in Nepal. I have mitigated this entirely to ensure I never drop off a sync call or miss a deadline:
+- **Primary Internet:** High-speed, stable Fiber-to-the-home connection.
+- **Power & Network Backup:** My primary fiber router is hooked to a dedicated **Mini-UPS (Router Power Backup)**. Even if the city power goes out, my internet connection stays completely online with zero drops. This, paired with prolonged hardware battery life, ensures total up-time during working hours.
+
+### 🤝 Remote Communication Pacing
+- **Async First:** I structure questions with full context (Problem, Logs, What I've tried, Proposed Solution) so teammates can review and approve without playing ping-pong.
+- **Visibility:** I default to transparency. I use public channels/Slack to document bugs or deployment logs rather than hiding issues in private DMs.
+
 <div align="center">
 
 **Open to remote backend engineering roles — available immediately.**
