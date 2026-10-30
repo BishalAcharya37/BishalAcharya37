@@ -117,7 +117,7 @@ Currently available for **remote backend engineering roles** — I want to be in
 ![ESC/POS](https://img.shields.io/badge/ESC%2FPOS-thermal%20printing-6B7280?style=flat)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 
-A real, currently-live client project for a restaurant group running 4 outlets. The product runs at **[web.serveiqnepal.com](https://web.serveiqnepal.com)**, with its marketing site at **[serveiqnepal.com](https://serveiqnepal.com)**. It covers real restaurant operations end to end: multi-outlet management, floor/table layout, reservations, menu & inventory, QR-based guest ordering, live kitchen ticket printing on physical hardware, real-time notifications, and billing. I own the backend **and** the production infrastructure it runs on, solo.
+A live, multi-tenant SaaS platform that lets restaurants run their entire operation from one system. Any restaurant group can onboard as its own organization with any number of outlets, each fully isolated. The product runs at **[web.serveiqnepal.com](https://web.serveiqnepal.com)**, with its marketing site at **[serveiqnepal.com](https://serveiqnepal.com)**. It covers restaurant operations end to end: multi-outlet management, floor/table layout, reservations, menu & inventory, QR-based guest ordering, live kitchen ticket printing on physical hardware, real-time notifications, subscription plans, and billing. I own the backend **and** the production infrastructure it runs on, solo.
 
 **How it works, start to finish**
 
