@@ -2,15 +2,14 @@
 
 # Bishal Acharya
 
-**Backend Engineer · Kathmandu, Nepal · Remote-ready**
+**Backend & Systems Engineer · Kathmandu, Nepal · Remote-ready**
 
 <a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/status-available%20for%20remote%20roles-3B6D11?style=flat&labelColor=EAF3DE" alt="Available"></a>
-<a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-BishalAcharya37-24292e?style=flat&logo=github" alt="GitHub"></a>
-<a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-bishal--acharya-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
-<a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/email-acharyabishal172@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://lead-pilot-omega.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/flagship-LeadPilot%20AI%20CRM-4F46E5?style=flat&logo=vercel&logoColor=white" alt="LeadPilot Live"></a>
 <a href="https://web.serveiqnepal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-ServeIQ%20Nepal%20app-639922?style=flat" alt="ServeIQ Nepal App"></a>
 <a href="https://serveiqnepal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/site-serveiqnepal.com-F38020?style=flat&logo=cloudflare&logoColor=white" alt="ServeIQ Nepal Landing Page"></a>
-<a href="https://acharya-fancy-stores.onrender.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-acharya--fancy--stores-639922?style=flat&logo=render&logoColor=white" alt="Live Project"></a>
+<a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/GitHub-BishalAcharya37-24292e?style=flat&logo=github" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-bishal--acharya-0A66C2?style=flat&logo=linkedin" alt="LinkedIn"></a>
 
 </div>
 
@@ -18,88 +17,117 @@
 
 ## About
 
-Backend engineer who graduated in 2025 with a **BIT from London Metropolitan University**. I don't just build features — I build systems that hold up when things go wrong.
+Backend & Distributed Systems Engineer who graduated in 2025 with a **BIT from London Metropolitan University**. I build production-grade, resilient architectures designed to survive edge cases, hardware crashes, network partitions, and heavy concurrency.
 
-I think about race conditions before they happen, design rollbacks before writing the happy path, and treat idempotency as a first-class requirement, not an afterthought. Over the past few months I've taken on the infrastructure side of two production systems solo — provisioning servers, configuring the reverse proxy and the edge, wiring CI/CD with automatic rollback, and keeping live multi-tenant SaaS products running on AWS, end to end. More recently, I've extended that same solo ownership down to the hardware layer — building a real-time kitchen ticket printing system for a live multi-outlet restaurant SaaS.
+I design systems around **failure modes before writing the happy path**, enforce **idempotency** across distributed jobs, and prevent **race conditions** with transactional locks. Over the past year, I have owned and scaled multi-tenant SaaS architectures end-to-end solo — from database schemas and Redis queuing pipelines to reverse proxies, automated rollback CI/CD, and low-level ESC/POS thermal printing hardware integration.
 
-Currently available for **remote backend engineering roles** — I want to be in production, facing real failures, and fixing them.
+Currently building and hardening autonomous agentic workflows and tool-calling systems. **Available immediately for global remote backend & systems engineering roles.**
 
 ---
 
-## Tech stack
+## Tech Stack
 
-**Core backend**
-
+**Core Engineering & Architecture**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js%20(App%20Router)-000000?style=flat&logo=nextdotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20(pgvector)-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma%20ORM-2D3748?style=flat&logo=prisma&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
 
-**Data & queuing**
-
+**Data, Queues & Distributed Systems**
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
-![Transactions](https://img.shields.io/badge/transactions-idempotency-6B7280?style=flat)
-![Distributed Locks](https://img.shields.io/badge/distributed%20locks-atomic%20ops-6B7280?style=flat)
+![Distributed Locks](https://img.shields.io/badge/distributed%20locks-advisory%20locks-6B7280?style=flat)
+![Idempotency](https://img.shields.io/badge/idempotency-atomic%20transactions-6B7280?style=flat)
+![HyperLogLog](https://img.shields.io/badge/Redis%20HyperLogLog-cardinality%20tracking-DC382D?style=flat)
 
-**Auth & security**
+**AI, Vector Search & LLMs**
+![pgvector](https://img.shields.io/badge/pgvector-384--dim%20embeddings-4169E1?style=flat)
+![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B%20Inference-F55036?style=flat)
+![Hybrid Search](https://img.shields.io/badge/Hybrid%20RAG-Vector%20%2B%20tsvector%20Fulltext-4F46E5?style=flat)
+![Tool Calling](https://img.shields.io/badge/LLM%20Function%20Calling-autonomous%20state%20actions-F55036?style=flat)
 
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
-![bcrypt](https://img.shields.io/badge/bcrypt-525252?style=flat&logo=npm&logoColor=white)
-![Helmet](https://img.shields.io/badge/Helmet.js-000000?style=flat&logo=helmet&logoColor=white)
-![WebAuthn](https://img.shields.io/badge/WebAuthn-passkeys-6B7280?style=flat)
-![Turnstile](https://img.shields.io/badge/Cloudflare%20Turnstile-bot%20protection-F38020?style=flat&logo=cloudflare&logoColor=white)
-![OTP 2FA](https://img.shields.io/badge/OTP%202FA-RBAC-6B7280?style=flat)
-![Session Management](https://img.shields.io/badge/session%20mgmt-token%20rotation-6B7280?style=flat)
-![Rate Limiting](https://img.shields.io/badge/rate%20limiting-trusted%20devices-6B7280?style=flat)
-
-**Infrastructure & DevOps**
-
+**Infrastructure, DevOps & Security**
 ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
-![AWS IAM](https://img.shields.io/badge/AWS%20IAM-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare%20DNS%20%2B%20SSL-F38020?style=flat&logo=cloudflare&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare%20Edge%20%2B%20SSL-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-learning-7B42BC?style=flat&logo=terraform&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon%20Postgres-00E599?style=flat&logo=postgresql&logoColor=black)
-
-**Integrations & hardware**
-
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
-![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
-![Webhooks](https://img.shields.io/badge/webhooks-6B7280?style=flat)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
-![ESC/POS](https://img.shields.io/badge/ESC%2FPOS-thermal%20printing-6B7280?style=flat)
-
-**Validation & observability**
-
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
-![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat&logo=sentry&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
-![Structured Logging](https://img.shields.io/badge/structured%20logging-audit%20trails-6B7280?style=flat)
-
-**Testing & CI**
-
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-![Supertest](https://img.shields.io/badge/Supertest-6B7280?style=flat&logo=npm&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-pipelines-2088FF?style=flat&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions%20CI%2FCD-auto%20rollback-2088FF?style=flat&logo=githubactions&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
+![WebAuthn](https://img.shields.io/badge/WebAuthn-Passkeys-6B7280?style=flat)
+![AES-256](https://img.shields.io/badge/AES--256--CBC-encryption%20at%20rest-6B7280?style=flat)
 
 ---
 
-## What I've built
+## Featured Production Systems
 
-### ServeIQ Nepal — Multi-Outlet Restaurant SaaS &nbsp; (Backend + Real-Time + Hardware + Solo DevOps)
+### 1. LeadPilot — Autonomous AI Social Sales Concierge & Multi-Tenant CRM
+
+<a href="https://lead-pilot-omega.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live--demo-lead--pilot--omega.vercel.app-4F46E5?style=flat&logo=vercel&logoColor=white" alt="LeadPilot Live"></a>
+<a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/code--access-private%20repo%20available%20on%20request-24292e?style=flat" alt="Private Repo"></a>
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js%20(App%20Router)-000000?style=flat&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20(pgvector)-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma%206-2D3748?style=flat&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-F55036?style=flat)
+![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
+![Web Push](https://img.shields.io/badge/Web%20Push-VAPID-6B7280?style=flat)
+
+A production-grade, multi-tenant AI sales assistant and CRM that automates lead qualification, knowledge retrieval, and messaging across Facebook Messenger and Instagram DM. It operates as an ecosystem of distributed micro-engines designed to eliminate hallucination, guarantee multi-tenant data isolation, and execute real-time actions.
+
+**Architectural Deep Dive: The Sub-Systems Built Inside**
+
+*   **High-Throughput Meta Webhook Ingestion Engine:**
+    *   Validates HMAC-SHA256 signatures with distinct secrets for Facebook and Instagram apps, mitigating spoofing attacks.
+    *   Responds with HTTP 200 within 100ms to satisfy Meta’s delivery SLA, pushing payloads to BullMQ with deterministic IDs (`msg-{externalMsgId}`) for deduplication against Meta retries.
+    *   5-second typing debounce window resets on consecutive customer messages, concatenating multi-bubble trains into a single contextual prompt.
+    *   Enforces the Meta 24-hour messaging window. If expired, triggers automated human handover; automatically unfreezes and resumes AI the instant a new inbound message is received.
+
+*   **Hybrid RAG & Semantic Retrieval Engine (`pgvector` + Fulltext):**
+    *   Combines 384-dimensional dense vector similarity (`cosine distance`) with PostgreSQL lexical search (`ts_rank` on `tsvector`) using reciprocal rank fusion.
+    *   Knowledge document ingestion chunks text (~1,000 chars, 150-char overlap), generates normalized embeddings, and persists them via atomic batch transactions with stuck-job sweeping on boot.
+    *   Zero-hallucination inventory matching: Retrieves active products and variant options (color, size, price) directly from DB records, restricting the LLM to verified inventory state.
+
+*   **High-Velocity Short URL & Attribution Tracking Engine:**
+    *   Cryptographically randomized Base62 slug generation (8 characters) with retry logic on unique collisions.
+    *   Enterprise SSRF and DNS-rebinding protection: Resolves destination hosts via DNS, blocking loopback, link-local, cloud metadata (`169.254.169.254`), and private IPv4/IPv6 CIDRs before saving.
+    *   High-throughput 302 redirect engine with negative caching (60s), Redis URL caching (1 hour), and IP-rate limiting (120 req/min).
+    *   HyperLogLog visitor cardinality tracking (`PFADD`), decoupled from write bottlenecks via an in-memory buffer flushed to Postgres every 5 seconds.
+    *   Deep-link referral tracking (`m.me` & `ig.me` refs) enables first-touch lead attribution when a customer clicks a short link on TikTok/YouTube and messages the business on Facebook/Instagram.
+
+*   **Autonomous Lead Qualification, Scoring & Human Handover:**
+    *   Non-monotonic lead scoring (0–100) and rolling sentiment classification (Positive / Neutral / Negative) run asynchronously after every reply.
+    *   Score crossing detection: Alerts only fire when a lead crosses the hot threshold ($\ge 70$) from below, avoiding repeated alerts while hot.
+    *   Instant handover: Flags conversations as needing a human when customers request one or when scores drop below 35, canceling background follow-up timers.
+
+*   **Enterprise Multi-Channel Social Sync & Incremental Web Scraper:**
+    *   Incremental Meta Graph API sync pulls album subattachments, carousel child nodes, and resolves raw `.mp4` video targets, updating vector embeddings for captions.
+    *   15-day staleness daemon automatically soft-deactivates dated posts unless marked with an agent override.
+    *   Cheerio-based web scraper evaluates SHA-256 hashes of DOM text and image arrays, aborting unnecessary re-embedding if content is unchanged to protect embedding cost limits.
+
+*   **🔥 In Active Development — Autonomous Tool Calling / Function Calling APIs:**
+    *   Expanding the LLM inference loop with deterministic JSON tool-calling capabilities.
+    *   Enables the model to inspect customer intent and autonomously execute backend mutations: moving pipeline stages (e.g., from *Contacted* to *Qualified* or *Booking Confirmed*), updating custom lead metadata, assigning specialized human agents, and booking appointments directly through conversation state.
+
+*   **Full-Stack UI & Real-Time Layer (Next.js App Router):**
+    *   Responsive SaaS dashboard featuring real-time kanban pipelines, conversation inboxes, live analytics charts, and tenant-scoped workspace management.
+    *   Dual real-time notification engine: In-app live sync via Socket.IO paired with offline VAPID Web Push notifications for agents on mobile/desktop browsers.
+
+---
+
+### 2. ServeIQ Nepal — Multi-Outlet Restaurant SaaS & Hardware Print Daemon
 
 <a href="https://web.serveiqnepal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/app-web.serveiqnepal.com-639922?style=flat" alt="App"></a>
-<a href="https://serveiqnepal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/landing-serveiqnepal.com-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Landing page"></a>
+<a href="https://serveiqnepal.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/site-serveiqnepal.com-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Landing page"></a>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
@@ -108,66 +136,37 @@ Currently available for **remote backend engineering roles** — I want to be in
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 ![Cloudflare R2](https://img.shields.io/badge/Cloudflare%20R2-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![ESC/POS](https://img.shields.io/badge/ESC%2FPOS-thermal%20printing-6B7280?style=flat)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
 
-A live, multi-tenant SaaS platform that lets restaurants run their entire operation from one system. Any restaurant group can onboard as its own organization with any number of outlets, each fully isolated. The product runs at **[web.serveiqnepal.com](https://web.serveiqnepal.com)**, with its marketing site at **[serveiqnepal.com](https://serveiqnepal.com)**. It covers restaurant operations end to end: multi-outlet management, floor/table layout, reservations, menu & inventory, QR-based guest ordering, live kitchen ticket printing on physical hardware, real-time notifications, subscription plans, and billing. I own the backend **and** the production infrastructure it runs on, solo.
+A live, multi-tenant restaurant operating system running live at **[web.serveiqnepal.com](https://web.serveiqnepal.com)**. Covers operations end-to-end: QR ordering, inventory tracking, bill splitting, real-time kitchen display systems, and automated physical ticket printing. I own the backend and the production infrastructure solo.
 
-**How it works, start to finish**
-
-1. **Guest scans a QR code on the table.** Each table has its own QR. Scanning it opens a table session, checked against the outlet's GPS radius so a guest can't fake being physically present. If the table already has an active session, a new scan joins the *same* session instead of starting a duplicate — everyone at the table lands on one shared bill.
-2. **Guest browses the menu and orders.** Items, variants (Large/Medium/Small), and add-ons come filtered to only what's currently available. Cart lives on the frontend; nothing touches the database until the order is placed. Every order carries an idempotency key, so a flaky connection or a double-tap can't create two orders.
-3. **The kitchen ticket prints itself, instantly, on a real printer.** The moment an order is placed, the backend fires a socket event. A print agent — packaged as a standalone `.exe`, running on the PC physically wired to the outlet's thermal printer — picks it up and prints the ticket in under a second. No QZ Tray, no browser print dialog, no manual step.
-4. **Kitchen tracks each item independently.** Every item moves through its own status — Pending → Preparing → Ready → Completed — independently of the rest of the order. Tea can be ready while the momo is still cooking. Once an item hits Preparing, the guest can no longer cancel it themselves — they can only *request* a cancellation, which staff sees live and has to confirm or decline.
-5. **Guests can request the bill or request to cancel an item, right from their phone.** Both requests hit staff instantly over the socket connection and sit in a pending queue until a staff member confirms or declines them.
-6. **Every meaningful thing that happens fires a notification.** New orders, guest requests, low/critical stock, upcoming reservation conflicts, a bill getting paid — all of it lands as a real notification for every staff member who has access to that outlet, live over the socket connection, with its own read/unread state per person.
-7. **Staff generates the bill and takes payment.** One or more orders from the same table session combine into a single bill. Payments can be split across multiple methods (Cash, Card, eSewa, Khalti, FonePay, Bank Transfer), with partial payments tracked until the balance clears. A bill can also be left partially paid or fully unpaid as long as a customer is attached to it — the due amount can be settled later at checkout instead of forcing full payment up front. The moment a bill is fully paid, the table session auto-closes and a full itemized receipt prints automatically on the same hardware — no second machine needed.
-
-Every step above — table status, new orders, kitchen updates, guest requests, notifications, bill events — pushes live over Socket.IO to staff devices, so the floor status screen, kitchen queue, and notification panel update in real time without anyone refreshing a page.
-
-**What's built**
-
-- **Multi-tenant SaaS foundation** — any organization can be created, with any number of outlets inside it, each with its own floors, tables, halls, staff, menu, inventory, and billing profile. Multi-tenancy isn't a future scaling plan — it's already how the system runs. Role-based access (owner, manager, store keeper, finance, viewer, cashier) with per-outlet access scoping. New outlets can clone an existing outlet's menu at creation.
-- **Menu management** — categories and items with variants (size/price tiers) and reusable add-ons shared across items, diet-type tagging (veg/non-veg/vegan/halal), per-item and per-variant discounts, availability toggles that instantly hide items from guest ordering without deleting them. Menu reads go through a Redis cache that falls back to the database if the cache is unreachable, so a cache failure never takes ordering down. Menu images are processed in a background worker.
-- **Inventory management** — categories, units, and suppliers, each supporting both system-seeded defaults and outlet-level custom entries. Full stock transaction log (Add, Reduce, Dispose, Exchange) as a single unified audit trail per item. Stock is tracked in FIFO-style batches per addition, with expiry dates per batch and allocation records linking each usage back to the exact batch it drew from — so cost and expiry stay accurate down to the individual delivery, not just a running total. Automatic low-stock/critical status computed straight in Postgres from current stock vs. reorder point, with a dedicated endpoint to pull items nearing or past reorder across the org.
-- **Floor, table & hall management** — floors with ordering and layout copy between floors, tables and bookable halls with capacity rules, and live table status (open, reserved, assigned, booked, served, unavailable) kept in sync by the service as sessions and reservations change. Staff can move an active session to a different table without losing the order or the bill.
-- **Reservations** — staff-entered bookings for tables or halls, with conflict detection around the requested time, guest-count validation against capacity, check-in that opens a session, cancel and no-show handling, and walk-in seating that warns staff when an upcoming reservation is at risk. A scheduled worker flags late reservations.
-- **Guest requests** — guests can request the bill or request an item cancellation from their session; both create a pending request that's pushed live to staff and shows up in a dedicated panel until confirmed or declined. Nothing on the order actually changes until staff acts on it.
-- **Notification system** — every meaningful event (new order, guest request, bill paid, reservation conflict, low/critical/expiring stock, etc.) fans out into a per-user notification record — one event, many recipients, each with their own read/unread state, mirroring the audit-log pattern but for "who needs to know" instead of "what happened." Recipients are resolved automatically from who has real access to that outlet, so nobody's left out and nobody outside the outlet sees it. Pushed live over Socket.IO, with unread counts and mark-as-read/mark-all-as-read. Notification creation is failure-isolated — if it breaks, it's logged and audited but never allowed to fail the actual order/bill/reservation action that triggered it. Per-user alert preferences (stock alerts, reservation alerts, daily digest, finance summary) with configurable send time, on top of the always-on real-time notifications.
-- **Scheduled background workers (BullMQ)** — repeatable jobs for expiring-stock checks, alert-preference digests, late-reservation checks, stale table-session expiry sweeps, reports sweeps, and subscription reminders, plus queued transactional email with retry and exponential backoff.
-- **Auth, passkeys & sessions** — JWT access tokens + rotating refresh tokens with reuse detection (a replayed stolen token kills every session for that user). OTP two-factor authentication, **passkey (WebAuthn) registration and login**, and **Cloudflare Turnstile** bot protection on sensitive flows. Staff invite flow with set-password email links, dormant accounts until portal access is switched on, and forced session invalidation when access is revoked or a staff member is deactivated. Guest ordering uses a separate, stateless customer-session token scoped to one table session, checked live against the session's actual status on every use.
-- **Staff management** — staff records per outlet with shift details, duty and employment status toggles, KYC fields with owner-confirmed identity verification before portal access, document uploads that move from temp to permanent storage, and an audit entry for every change.
-- **Subscription plans** — plan tiers (including a Premium tier) with subscription management and automated reminder emails before expiry.
-- **Reports, day book & expenses** — sales and operations reports with scheduled sweeps, a day book for daily entries, and expense tracking, all scoped per outlet.
-- **Real-time layer** — Socket.IO with role- and session-scoped rooms: staff join their outlet's room, guests join their table session's room, nobody sees events outside their own scope. Every state change is a typed event, not a raw string. Connections are rate limited and outlet access is re-verified against the database on every connect.
-- **Order & kitchen workflow** — full lifecycle from placement to per-item kitchen status to serving, concurrency handled through simple conditional database updates plus idempotency keys for safe retries. QR ordering includes GPS-radius checks on every order and live staff visibility as orders come in. Staff can accept or reject QR orders, force-complete or cancel whole orders, and remove add-ons from items already in the queue.
-- **Billing** — combines multiple orders into one bill, supports split/partial payments, blocks overpayment, auto-closes the table on full settlement. Unpaid or partially-paid bills can be carried forward as customer dues, settled at a later checkout. Optional PAN/VAT detail resolved per-outlet with an org-level fallback, snapshotted onto the bill so historical records stay accurate even if outlet billing info changes later.
-- **Hardware integration — kitchen ticket & receipt printing.** Built a separate local print agent, packaged as a standalone `.exe`, that runs on the PC physically connected to each outlet's printer — the same architectural pattern Petpooja, Zomato, and Toast use for kitchen printing, since a cloud-hosted backend has no way to talk directly to a USB printer sitting inside a restaurant. No QZ Tray or third-party print bridge involved. Talks to a **ZKTeco ZKP8005v 80mm thermal printer** over USB, shared through Windows as a network printer, using raw ESC/POS commands via `node-thermal-printer`. The agent logs in through the backend's normal login endpoint with its own low-privilege account and self-schedules its own token refresh by decoding the JWT's expiry client-side. Tried two other approaches before landing on the working one — a native printer driver needing per-machine compilation, and Windows' built-in print command, which doesn't work with modern Plug-and-Play USB POS printers. Found and fixed a bug where the print buffer wasn't cleared between jobs, silently reprinting every previous order's ticket on top of each new one. Kitchen tickets are deliberately stripped down (item, variant, add-ons, notes, parcel flag, no prices or barcodes); receipts get the full itemized breakdown, tax, and payment method.
-- **Release pipeline & self-updating agent** — the print agent ships through a fully automated CI/CD pipeline. Pushing a version tag on the private source repo triggers a GitHub Actions matrix build that compiles standalone binaries for **Windows, macOS and Linux** in parallel, with fail-fast disabled so one platform failing never cancels the others. Each build is published to a separate **public releases repo** through a scoped token, so the source stays private, and no credentials ship inside any binary. On startup, each deployed agent checks the latest release, compares semantic versions, downloads the asset for its own platform, and verifies the file size before it touches the running binary. A detached helper then swaps the executable in place and relaunches, and the outlet's pairing config is preserved across updates. A failed check or download never blocks the agent, and a running agent is never interrupted mid-shift. Rolling a fix out to every outlet is one tag push. Released builds: [restropos-agent-release](https://github.com/BishalAcharya37/restropos-agent-release)
-- **Full audit trail** — every meaningful mutation (staff actions, stock changes, order/bill lifecycle events) logged to a centralized audit log with actor, entity, and outlet context, queryable per org, outlet, entity, or action type.
-
-**Infrastructure & DevOps — owned solo, from empty server to live traffic**
-
-- **Provisioned the production server on AWS EC2** (Ubuntu LTS, Mumbai region) by hand: security groups scoped to SSH, HTTP and HTTPS only, key-pair login with no passwords, an **Elastic IP** attached up front so resizing or restarting the instance never breaks DNS, and a swap file as a memory safety net on a small instance.
-- **Nginx reverse proxy** in front of the Node app, with a WebSocket upgrade map so Socket.IO passes through cleanly, tuned request-size and timeout limits, and a separate HTTPS server block.
-- **Cloudflare at the edge** — DNS for the API and web subdomains, traffic proxied through Cloudflare, a **Cloudflare Origin CA certificate** installed on nginx, and SSL mode set to **Full (strict)** so the connection is encrypted and verified end to end. Diagnosed and fixed a Cloudflare **525 SSL handshake failure** by working outward from the origin: confirmed the app, nginx and port 443 were healthy, ruled out the AWS security group, then traced it to the certificate and SSL mode.
-- **Redis tuned for job queues** — configured on the same box with a memory cap and the `noeviction` policy, so BullMQ jobs are never silently evicted under memory pressure.
-- **PM2 process management** with boot-persistent auto-start and a saved process list, so the app and its workers come back by themselves after a reboot or crash.
-- **Private-repo deploys with read-only deploy keys** — the server pulls code through a repo-scoped, read-only SSH deploy key rather than a personal account key, and GitHub Actions uses its own separate SSH key, so each credential can be revoked independently.
-- **GitHub Actions CI/CD with automatic rollback** — every push to `main` SSHes into the server, pulls the latest code, installs dependencies, applies Prisma migrations **only if migrations exist**, restarts the app, and then runs a **health-check gate** against the local endpoint with retries. If the check fails, the pipeline rolls back to the last known-good commit and restarts, so a bad deploy degrades to "nothing shipped," never to downtime. A final check confirms the public HTTPS URL is reachable from outside and warns if Cloudflare or nginx routing is off.
-- **Provider-agnostic storage facade** — every upload, move and delete goes through a single storage layer that the rest of the app never looks behind. Switching storage providers is a **one-line change**: I used this to move ServeIQ Nepal from Cloudinary to **Cloudflare R2**, with temp-upload → permanent-move handling and no changes to business logic.
-- **Secrets and config hygiene** — `.env` is git-ignored and created directly on the server with owner-only permissions, production origins and passkey/Turnstile settings are set per environment, and CORS origins are explicitly allow-listed.
-- **Database environments & migrations** — schema changes ship as versioned Prisma migrations (89 and counting), applied in production through `prisma migrate deploy` as a gated step in the CI/CD pipeline, and skipped safely when nothing is pending. Stood up a dedicated **production Neon Postgres database** by migrating the full schema onto an empty instance and switching the app over through environment config, with a separate database kept for development, so day-to-day development never touches production data.
+*   **Physical Thermal Printer Hardware Integration:**
+    *   Packaged a standalone desktop printing agent (`.exe`) deployed on local outlet PCs wired to **ZKTeco 80mm thermal printers**.
+    *   Bridges cloud webhooks and socket events directly to the local Windows spooler using raw ESC/POS commands via `node-thermal-printer`, eliminating browser print dialogs.
+    *   Identified and fixed a hardware-level print buffer leak that was silently reprinting historical order tickets on top of newly placed tickets.
+*   **Automated Release Pipeline for Native Binaries:**
+    *   GitHub Actions matrix builds cross-compile standalone Windows, macOS, and Linux binaries in parallel on tag pushes.
+    *   Automated binary updater: Deployed agents check releases, verify SHA/size, and swap binaries in-place with rollback on failure without disrupting kitchen shifts.
+*   **Atomic Table Sessions & GPS-Fenced QR Ordering:**
+    *   Table QR scans validate mobile GPS coordinates against the outlet’s physical radius to eliminate remote ordering fraud.
+    *   Atomic table session pooling combines concurrent customer scans into a shared bill with idempotency keys preventing double-charges.
+*   **FIFO Batch Inventory Engine:**
+    *   Tracks stock in strict First-In-First-Out batches with separate delivery dates and batch expiries. Every dish prepared draws inventory directly from specific delivery lots.
+*   **Production Infrastructure (AWS + Cloudflare + Neon):**
+    *   Hardened AWS EC2 instance (Ubuntu LTS, Mumbai region), Elastic IP, isolated security groups, custom swap allocation.
+    *   Nginx reverse proxy with connection upgrade maps for WebSocket pass-through and Cloudflare Origin SSL configured for **Full (Strict)** encryption (diagnosed and resolved 525 handshake errors).
+    *   GitHub Actions CI/CD with health-check-gated **automatic rollback**: If an endpoint fails post-deploy, the runner automatically checks out the last known-good commit and restarts PM2.
 
 ---
 
-### Acharya Fancy Stores — e-commerce backend &nbsp;<a href="https://acharya-fancy-stores.onrender.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-onrender-639922?style=flat" alt="Live"></a> <a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/repo-github-24292e?style=flat&logo=github" alt="Repo"></a>
+### 3. Acharya Fancy Stores — E-Commerce Engine & Stripe Webhooks
+
+<a href="https://acharya-fancy-stores.onrender.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/live-onrender-639922?style=flat" alt="Live"></a>
+<a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/repo-github-24292e?style=flat&logo=github" alt="Repo"></a>
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
@@ -175,99 +174,39 @@ Every step above — table status, new orders, kitchen updates, guest requests, 
 ![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat&logo=stripe&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=flat&logo=cloudinary&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-- Full order lifecycle with **Stripe and Cash on Delivery**. Idempotency keys prevent duplicate orders and payments even under retries or network failures.
-- Stripe webhooks with signature validation — `payment_intent.succeeded` and `payment_intent.payment_failed` update order status **atomically**, safe against Stripe retries.
-- **Cloudinary image rollback** — new images are uploaded first. If the DB write fails, newly uploaded files are deleted and original URLs restored. No orphaned files, no inconsistency.
-- Async transactional email via **BullMQ** — all emails queued and processed by a dedicated worker with exponential backoff retry. The API never waits on email delivery.
-- **Refresh token rotation** — every refresh invalidates the previous token. Reuse of an old token triggers immediate full session revocation.
-- **Full CI/CD pipeline** — GitHub Actions runs the complete Jest + Supertest suite against a dedicated test database on every push to `main`. Deployment blocked on any test failure.
+*   **Atomic Payment Webhook Processing:** Verified Stripe webhook signatures processing `payment_intent.succeeded` and `failed` events idempotently, handling out-of-order delivery.
+*   **Storage Rollback Pattern:** Pre-uploads media to storage; if the database transaction aborts, newly written storage keys are immediately purged to prevent orphaned blobs.
+*   **Refresh Token Rotation & Reuse Detection:** Single-use refresh tokens stored as Argon2 hashes. Replay of an invalidated refresh token triggers immediate destruction of all sessions for that user.
 
 ---
 
-### Production-grade multi-tenant SaaS CRM/ERP
+## How I Think About Backend
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-E11D48?style=flat&logo=redis&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
-![AWS S3](https://img.shields.io/badge/AWS%20S3-FF9900?style=flat&logo=amazons3&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat&logo=pm2&logoColor=white)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=flat&logo=socketdotio&logoColor=white)
-![Meta](https://img.shields.io/badge/Meta%20Graph%20API-0866FF?style=flat&logo=meta&logoColor=white)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat&logo=puppeteer&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
-![Pino](https://img.shields.io/badge/Pino-brown?style=flat&logo=npm&logoColor=white)
-
-End-to-end worker lifecycle management built for a real-world client — not a side project. I own this system's backend **and** its infrastructure solo, from schema design through the AWS server it runs on.
-
-**Application layer**
-- **Multi-tenant architecture** — agency-scoped data isolation, per-tenant RBAC, soft deletes with full recovery, and audit logging on every critical mutation.
-- **Auth system** — JWT + OTP two-factor, trusted device fingerprinting, session invalidation, office-hours enforcement, and forced password rotation.
-- **Provider-agnostic file storage** — a facade layer decoupling every service from the underlying storage provider. Migrated the entire app from Cloudinary to AWS S3 by changing a single import line, with zero changes to business logic across 15+ modules. Temp-upload → permanent-move pattern with atomic rollback on DB failure.
-- **Background job pipelines** — BullMQ queues with retry, exponential backoff, idempotency keys, and dead-letter handling via Redis.
-- **Real-time messaging** — Socket.IO with room-based agency isolation. Webhook ingestion from Meta Graph API delivers messages to connected clients instantly.
-- **Meta Graph API integration** — Facebook and Instagram page management, post publishing (text, image, multi-image, video), conversation sync, and live inbox with webhook-driven updates.
-- **Async PDF reports** — Puppeteer-generated reports queued as background jobs, never blocking the API response.
-
-**Infrastructure & DevOps**
-- **Provisioned and hardened AWS EC2** from scratch — Ubuntu server, security groups, SSH key management, and an Elastic IP attached up front so instance-type changes never require a DNS update.
-- **Nginx reverse proxy** in front of the app, configured for WebSocket pass-through (Socket.IO) and tuned request-size/timeout limits after diagnosing a silent upload failure caused by default proxy limits, not application code.
-- **PM2 process management** with boot-persistent auto-start and a memory-restart safety net, so the process self-heals before a leak can take down the whole instance.
-- **GitHub Actions CI/CD** with health-check-gated automatic rollback — a failed post-deploy health check reverts to the last known-good commit with no manual intervention, so a bad deploy degrades to "nothing shipped," never to downtime.
-- **Diagnosed and fixed a storage-layer bug that looked like an AWS permissions issue but wasn't** — a URL/key mismatch caused S3 to return `403` instead of a clean `404` for missing objects, traced by comparing the stored key against the returned URL rather than re-auditing IAM policy.
-- **Migrated the production domain** from a managed PaaS to self-managed infrastructure behind Cloudflare.
-
-**Currently deepening**
-- **AWS RDS** — moving toward managed, VPC-isolated Postgres with automated backups.
-- **Infrastructure as Code (Terraform)** — writing declarative configs to reproduce infrastructure that was first built by hand, so it's reviewable, repeatable, and not dependent on one person's memory.
-- **Load balancing, auto-scaling, and blue-green deployment patterns** — studying how to run two identical environments and switch traffic at the DNS/load-balancer level instead of deploying onto a live production box, to remove deploy-time resource contention entirely.
+| Principle | Execution in My Systems |
+| :--- | :--- |
+| **Failure First** | What happens when step 3 fails after step 1 and 2 write to the database? Every distributed operation includes compensations, rollbacks, or dead-letter queues. |
+| **Concurrency & Locks** | Two requests hitting the same endpoint at the same millisecond must not create race conditions. I use Postgres advisory locks and Redis distributed locks with Lua release scripts. |
+| **Idempotency** | Webhooks, payment callbacks, and BullMQ jobs are assumed to deliver more than once. Everything carries an idempotency token or unique constraint. |
+| **Observability** | Structured JSON logs (Pino), Sentry scope breadcrumbs, and comprehensive database audit logs allow debugging production bugs at 2 AM without guessing. |
+| **Infrastructure Ownership** | I don't treat servers as someone else's problem. If I write the code, I configure the proxy, manage the cache eviction policies, provision the database, and wire the deployment pipeline. |
 
 ---
 
-## How I think about backend
+## 🖥️ Remote Reliability & Work Setup
 
-| | |
-|---|---|
-| **Failure first** | What happens when step 2 fails after step 1 succeeds? That's the first question I ask. |
-| **Concurrency** | Two users, same resource, same millisecond — race condition? I design around it before it ships. |
-| **Idempotency** | If this job runs twice, is the result the same? Background jobs must be safe to retry. |
-| **Observability** | Structured logs, audit trails, enough context to debug at 2am without reading every line. |
-| **Simplicity** | The boring solution that works beats the clever one that breaks under edge cases. |
-| **Infrastructure is not someone else's job** | If I ship the feature, I understand what it runs on — the server, the proxy, the edge, the process manager, the pipeline, all of it. |
-| **Shipped & tested** | CI/CD and tests before calling anything done. I don't push untested code. |
+Working remotely with international teams requires zero downtime, reliable infrastructure, and structured async communication:
+
+*   **Hardware & Shell:** Windows Subsystem for Linux (WSL2 - Ubuntu 24.04 LTS), Zsh, VS Code customized for Docker & Prisma.
+*   **Power & Internet Redundancy:** High-speed Fiber-to-the-home backed by a dedicated **Mini-UPS router power backup** and secondary long-life battery systems. Guaranteed 100% connectivity through local grid outages.
+*   **Async Communication:** High-context updates: *Problem statement $\to$ Server logs / reproduction steps $\to$ Attempted fixes $\to$ Proposed solution*. Transparent, public-channel-first documentation.
 
 ---
-
-## 🖥️ My Remote & Daily Workflow Setup
-
-Working efficiently from a different timezone requires heavy over-communication, a rock-solid local environment, and zero downtime. Here is how I operate daily:
-
-### ⚙️ Development Environment
-- **OS & Shell:** Windows Subsystem for Linux (WSL2 - Ubuntu) paired with Zsh and Oh-My-Zsh.
-- **Editor:** VS Code heavily customized for backend development (Prisma, Docker, AWS Toolkit, ESLint/Prettier on save).
-- **Local Infra & Databases:** I use **Docker** locally to run isolated Redis instances and BullMQ queues to keep the environment lean. For my primary relational database, I develop directly against cloud-native Serverless PostgreSQL via **Neon Database**.
-- **Networking & Webhooks:** I heavily utilize **Ngrok**. I use it not just for catching and debugging incoming Stripe or Meta Graph API webhooks, but also to tunnel my local backend and frontend instances for seamless, live integration testing across the internet.
-- **Database GUI:** TablePlus / DBeaver for monitoring active SQL queries, running aggregations, and diagnosing performance bottlenecks.
-
-### 🔋 Remote Infrastructure & Reliability
-International employers sometimes worry about power grid stability (loadshedding) in Nepal. I have mitigated this entirely to ensure I never drop off a sync call or miss a deadline:
-- **Primary Internet:** High-speed, stable Fiber-to-the-home connection.
-- **Power & Network Backup:** My primary fiber router is hooked to a dedicated **Mini-UPS (Router Power Backup)**. Even if the city power goes out, my internet connection stays completely online with zero drops. This, paired with prolonged hardware battery life, ensures total up-time during working hours.
-
-### 🤝 Remote Communication Pacing
-- **Async First:** I structure questions with full context (Problem, Logs, What I've tried, Proposed Solution) so teammates can review and approve without playing ping-pong.
-- **Visibility:** I default to transparency. I use public channels/Slack to document bugs or deployment logs rather than hiding issues in private DMs.
 
 <div align="center">
 
-**Open to remote backend engineering roles — available immediately.**
+**Open to remote backend, full-stack, and distributed systems engineering roles — available immediately.**
 
 <a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer">acharyabishal172@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer">GitHub</a>
 
