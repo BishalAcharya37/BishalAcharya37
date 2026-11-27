@@ -210,4 +210,5 @@ Working remotely with international teams requires zero downtime, reliable infra
 
 <a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer">acharyabishal172@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/bishal-acharya-47603b269/" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/BishalAcharya37" target="_blank" rel="noopener noreferrer">GitHub</a>
 
+
 </div>
