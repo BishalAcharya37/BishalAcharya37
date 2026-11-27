@@ -2,7 +2,7 @@
 
 # Bishal Acharya
 
-**Backend & Systems Engineer · Kathmandu, Nepal · Remote-ready**
+**Backend AI & Systems Engineer · Kathmandu, Nepal · Remote-ready**
 
 <a href="mailto:acharyabishal172@gmail.com" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/status-available%20for%20remote%20roles-3B6D11?style=flat&labelColor=EAF3DE" alt="Available"></a>
 <a href="https://lead-pilot-omega.vercel.app" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/flagship-LeadPilot%20AI%20CRM-4F46E5?style=flat&logo=vercel&logoColor=white" alt="LeadPilot Live"></a>
